@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash",
+      "WebFetch",
+      "mcp__playwright",
+      "Skill(commit)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "context7",
+    "filesystem",
+    "firecrawl-mcp",
+    "slack",
+    "playwright"
+  ],
+  "enabledMcpServers": [
+    "mcp__playwright"
+  ]
+}
